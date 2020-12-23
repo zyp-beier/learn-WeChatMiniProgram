@@ -1,0 +1,9 @@
+<view class="container">
+<view class="search-wrap">
+<input placeholder='搜索穿搭' type='text' focus='true' class="search"></input>
+<button size='mini' type='primary' bindtap='switchtab'>搜索</button>
+</view>
+<text>{{name}}</text>
+<text>{{258}}</text>
+
+</view>

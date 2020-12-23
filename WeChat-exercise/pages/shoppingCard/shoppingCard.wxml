@@ -1,0 +1,14 @@
+<!--pages/shoppingCard/shoppingCard.wxml-->
+
+<text>pages/shoppingCard/shoppingCard.wxml</text>
+<import src="../test1/test1.wxml"></import>
+<template is="info" data="{{list}}"/>
+<text>
+{{name}}
+</text>
+<button type="primary" open-type='getUserInfo' lang='zh_CN' bindgetuserinfo='bindGetUserInfo'>授权登录</button>
+<!-- <rich-text >{{avatarUrl}}</rich-text> -->
+<view wx:if="{{avatarUrl}}">
+<image src='{{avatarUrl}}'></image>
+</view>
+

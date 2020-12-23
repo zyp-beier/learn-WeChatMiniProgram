@@ -1,0 +1,20 @@
+<view class="list">
+<view wx:if="{{avatarUrl}}">
+    <image src="{{avatarUrl}}"></image>
+</view>
+<button type='primary' size="mini" bindtap='getstorage'>获取头像</button>
+    <view class="">
+        <block wx:for="{{list}}" wx:key="index" >
+        <view class="list-wrap">
+            <view>
+              <image src='{{item.icon}}' class="list-img" mode='aspectFit'></image>
+              <text class='list-title' bindtap=''>{{item.title}}</text>
+            </view>
+            <text>></text>
+        </view>
+        </block>
+    </view>  
+    <button type='primary' size='mini' bindtap='login'>登录</button>
+    <navigator url='../shoppingCard/shoppingCard' open-type='switchTab'>查看购物车</navigator>
+    <navigator url='../search/search?name=147'>查看搜索</navigator>
+</view>

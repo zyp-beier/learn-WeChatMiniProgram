@@ -1,0 +1,12 @@
+/* pages/search/search.wxss */
+.container{
+  padding:10px;
+}
+.search-wrap{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.search{
+  padding:5px;
+}

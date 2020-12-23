@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="container">
+  <button type='primary' size='mini' bindtap='logintwo'>使用微信快捷登录</button>
+  <button type='primary' size='mini' bindtap='getstorge'>查询缓存</button>
+ <form bindtap='search'>
+  <input placeholder='搜索穿搭' type='text'></input>
+ </form>
+ <text>{{data}}</text>
+</view>

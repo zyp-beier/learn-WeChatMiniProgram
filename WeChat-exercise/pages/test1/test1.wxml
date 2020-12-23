@@ -1,0 +1,13 @@
+<!-- 模板 -->
+<template name="info" >
+<view class="info">
+ <view >{{list.title}}</view>
+  <text>{{list.msg}}</text>
+  <input type='text' placeholder='请输入账号或卡号'></input>
+</view>
+</template>
+
+<view>
+收藏:{{name}}
+<template is="info" data="{{list}}"/>
+</view>

@@ -1,0 +1,16 @@
+.list{
+  padding:10px;
+}
+.list-wrap{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin:15px auto;
+}
+.list-img{
+  width:20px;
+  height:20px;
+}
+.list-title{
+  margin-left:10px;
+}
